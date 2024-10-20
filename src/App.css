@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+  background-color: black;
+}
+
+
+
+.square {
+  background-color: rgb(191, 204, 191);
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 1px; 
+  text-align: center;
+  vertical-align: top;
+  padding: 0;
+  font-size: 54px;
+  cursor: pointer;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center; 
+  
+}
+
+.status{
+  text-align: center;
+   color: white;
+   font-size: 40px;
+   margin-bottom: 5px;
+}
+
+.game{
+  color: white;
+}
+
+.li-container{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jump-to{
+  color: whitesmoke;
+  font-size: 20px;
+  
+}
+
+.board-size{
+ 
+}
